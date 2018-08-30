@@ -15,7 +15,6 @@ var server = new mosca.Server({
   }
 });
 
-
 server.on('clientConnected', function(client) {
   console.log('CLIENT CONNECTED', client.id);
 });
