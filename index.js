@@ -9,6 +9,9 @@ var server = new mosca.Server({
     pubsubCollection: 'messages',
     mongo: {},
   },
+  http: {
+    port: 3023,
+  },
   persistence: {
     factory: mosca.persistence.Mongo,
     url: "mongodb://localhost:27017/mqtt-broker",
