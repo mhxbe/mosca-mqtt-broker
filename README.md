@@ -1,7 +1,7 @@
 # mosca-mqtt-broker
 Mosca is a MQTT(Message Queuing Telemetry Transport) Broker
 
-## How to instal mongodb on a Raspberry Pi
+## How to instal mongodb on a Raspberry Pi?
 
 install mongodb with: 
 
